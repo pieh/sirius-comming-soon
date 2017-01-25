@@ -14,6 +14,7 @@
         font-family: 'Geomanist', sans-serif;
         line-height: 1;
         color: #26bfca;
+        background: radial-gradient(ellipse at center, #c7c7c7 0%,#ffffff 100%);
       }
 
       a {
@@ -70,9 +71,7 @@
         /*background: red;*/
       }
 
-      #g3649, #g3615, #rect13 {
-        display: none;
-      }
+
 
       #g11 g {
         transform-origin: 573.65px 551.65px;
@@ -86,6 +85,102 @@
       .animate #g11 g {
         transform: rotate(0) scale(1);
         opacity: 1;
+      }
+
+      /*#g3649, #g3615, #rect13 {
+        display: none;
+      }*/
+
+      #rect13 {
+        opacity: 0;
+        transition: all 0.5s ease-out 1s;
+      }
+
+      animate #rect13 {
+        opacity: 1;
+      }
+
+      #g3615 {
+        transform-origin: 573.65px 551.65px;
+        opacity: 0;
+        transform: scale(0.3);
+        transition: all 3s ease-out 0s;
+      }
+
+      .animate #g3615 {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      /* sirius star */
+      #polygon3693 {
+        transform-origin: 603.65px 434.24993px;
+        opacity: 0;
+        transform: scale(0.2) rotate(30deg);
+        transition: all 0.6s ease-out 1s;
+      }
+
+      .animate #polygon3693 {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      #g3653 {
+        transition: all 0.8s ease-out 1.15s;
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+
+      .animate #g3653 {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      #g3667 {
+        transition: all 0.9s ease-out 1.45s;
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      .animate #g3667 {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      #polygon3695 {
+        transform-origin: 776.05px 444.44px;
+        opacity: 0;
+        transform: scale(0.2) rotate(30deg);
+        transition: all 0.6s ease-out 1.5s;
+      }
+
+      .animate #polygon3695 {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      #polygon3699 {
+        transform-origin: 457.3px 419.29px;
+        opacity: 0;
+        transform: scale(0.2) rotate(30deg);
+        transition: all 0.6s ease-out 1.7s;
+      }
+
+      .animate #polygon3699 {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      #polygon3697 {
+        transform-origin: 524.9px 449.59px;
+        opacity: 0;
+        transform: scale(0.2) rotate(30deg);
+        transition: all 0.6s ease-out 1.9s;
+      }
+
+      .animate #polygon3697 {
+        opacity: 1;
+        transform: scale(1);
       }
 
     </style>
